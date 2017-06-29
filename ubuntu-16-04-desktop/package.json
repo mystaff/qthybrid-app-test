@@ -1,0 +1,22 @@
+{
+  "name": "ubuntu-16-04-desktop",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">8.0.0"
+  },
+  "main": "autotest-0001.js",
+  "scripts": {
+    "start": "node ./autotest-0001.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystaff/qthybrid-app-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mystaff/qthybrid-app-test/issues"
+  },
+  "homepage": "https://github.com/mystaff/qthybrid-app-test#readme"
+}

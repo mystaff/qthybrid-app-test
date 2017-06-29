@@ -24,5 +24,4 @@ EOL
 
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 apt -y install nodejs
-npm install robotjs opencv tesseract.js jimp fs-extra
-
+npm config set python python2.7

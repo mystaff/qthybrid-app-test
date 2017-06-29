@@ -1,5 +1,21 @@
-# qthybrid-app-test
+# Automated testing for Staff.com desktop-app
 
-For setup environment execute command: `sudo qthybrid-app-test/ubuntu-16-04-desktop/bootstrap.sh`
+## Linux (Ubuntu 16.04 desktop)
 
-For run test execute commands: first `cd qthybrid-app-test/ubuntu-16-04-desktop` than `nodejs autotest-0001.js`
+### Install  
+
+```bash 
+git clone https://github.com/mystaff/qthybrid-app-test
+cd ubuntu-16-04-desktop
+
+# install sytem dependencies
+sudo ./bootstrap.sh
+
+# install node dependencies
+npm install
+```
+
+### Run
+```bash
+npm start
+```

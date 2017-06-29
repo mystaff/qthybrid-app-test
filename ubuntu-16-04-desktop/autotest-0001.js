@@ -135,4 +135,5 @@ async function main() {
 
 main().catch((err) => {
     console.log(err.stack || err);
+    process.exit(1);
 });

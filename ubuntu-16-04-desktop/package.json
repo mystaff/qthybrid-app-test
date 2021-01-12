@@ -22,7 +22,7 @@
   "dependencies": {
     "fs-extra": "^3.0.1",
     "jimp": "^0.2.28",
-    "opencv": "^6.0.0",
+    "opencv": "^6.1.0",
     "robotjs": "^0.4.7",
     "tesseract.js": "^1.0.10"
   }
